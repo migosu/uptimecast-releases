@@ -8,18 +8,18 @@ Website: **[uptimecast.com](https://uptimecast.com)** (available in 10 languages
 
 ## Download
 
-Get the latest version from **[Releases](https://github.com/migosu/uptimecast-releases/releases/latest)** or from [uptimecast.com/download](https://uptimecast.com/download/uptimecast-linux.tar.gz).
+**Latest version: 0.12.2** — [uptimecast-0.12.2-linux.tar.gz](https://github.com/migosu/uptimecast-releases/raw/main/downloads/uptimecast-0.12.2-linux.tar.gz) ([sha256](downloads/uptimecast-0.12.2-linux.tar.gz.sha256)) · [release notes](https://github.com/migosu/uptimecast-releases/releases/tag/v0.12.2)
 
-Each release has a `.sha256` file to check the download.
+The same package is also at [uptimecast.com](https://uptimecast.com/download/uptimecast-linux.tar.gz).
 
 ## Install (about two minutes)
 
 Ubuntu 22.04, 24.04 or 26.04, or Debian 11 to 13 (amd64 or arm64).
 
 ```bash
-curl -LO https://github.com/migosu/uptimecast-releases/releases/latest/download/uptimecast-linux.tar.gz
-tar xzf uptimecast-linux.tar.gz
-cd uptimecast-*/
+curl -LO https://github.com/migosu/uptimecast-releases/raw/main/downloads/uptimecast-0.12.2-linux.tar.gz
+tar xzf uptimecast-0.12.2-linux.tar.gz
+cd uptimecast-0.12.2
 sudo ./install.sh
 ```
 
